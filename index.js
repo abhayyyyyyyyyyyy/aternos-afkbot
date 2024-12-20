@@ -10,13 +10,13 @@ var lastaction;
 var pi = 3.14159;
 var moveinterval = 2; // 2 second movement interval
 var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
-var host = data["ip"];
-var port = data["port"];
-var username = data["name"]
+var host = data["JaanlewaSMP.aternos.me"];
+var port = data["34815"];
+var username = data["AfkBot"]
 var bot = mineflayer.createBot({
-  host: host,
-  port: port,
-  username: username
+  host: JaanlwaSMP.aternos.me,
+  port: 34815,
+  username: AfkBot
 });
 function getRandomArbitrary(min, max) {
        return Math.random() * (max - min) + min;
